@@ -20,53 +20,22 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
+    id: 4,
+    title: "Publications",
+    path: "/publication",
+    newTab: false,
+  },
+  {
     id: 5,
     title: "Contact",
     path: "/contact",
     newTab: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "News",
     path: "/news",
     newTab: false,
-  },
-  {
-    id: 6,
-    title: "Pages",
-    newTab: false,
-    submenu: [
-      {
-        id: 61,
-        title: "Research Page",
-        path: "/research",
-        newTab: false,
-      },
-      {
-        id: 62,
-        title: "People Page",
-        path: "/people",
-        newTab: false,
-      },
-      {
-        id: 63,
-        title: "Contact",
-        path: "/contact",
-        newTab: false,
-      },
-      {
-        id: 64,
-        title: "News Page",
-        path: "/news",
-        newTab: false,
-      },
-      {
-        id: 68,
-        title: "Error Page",
-        path: "/error",
-        newTab: false,
-      },
-    ],
   },
 ];
 export default menuData;
