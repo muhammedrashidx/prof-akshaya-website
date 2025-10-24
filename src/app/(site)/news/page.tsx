@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "News | Play SaaS Starter Kit and Boilerplate for Next.js",
+    "News | Atmospheric Convection and Dynamics Group",
   description: "Blog grids page description",
 };
 

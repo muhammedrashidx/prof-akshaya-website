@@ -8,6 +8,17 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Custom selection color - Vox Yellow */
+::selection {
+  background-color: #FFD700; /* Vox yellow */
+  color: #000000; /* Black text for better contrast */
+}
+
+::-moz-selection {
+  background-color: #FFD700; /* Vox yellow for Firefox */
+  color: #000000; /* Black text for better contrast */
+}
+
 .sticky-menu .navbar-logo {
   @apply py-2;
 }
