@@ -24,7 +24,7 @@ const ResearchPage = () => {
                   Intense convection
                   </h2>
                   <p className="mb-6 text-sm leading-relaxed text-body-color dark:text-dark-6 sm:mb-8 sm:text-base">
-                  Our group works on various forms of intense atmospheric convection ranging from isolated thunderstorms to organized mesoscale convective systems that span 100's of km. We particularly focus on tropical convection that leads to heavy rainfall events. Recently, we have started working on lightning in a collaborative project with Prof. S. Ravichandran.
+                  Our group works on various forms of intense atmospheric convection ranging from isolated thunderstorms to organized mesoscale convective systems that span 100&apos;s of km. We particularly focus on tropical convection that leads to heavy rainfall events. Recently, we have started working on lightning in a collaborative project with Prof. S. Ravichandran.
                   </p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const ResearchPage = () => {
                   />
                 </div>
                 <p className="mt-3 text-xs text-gray-600 dark:text-gray-400 sm:text-sm lg:text-base">
-                A photo Jupiter's Great Red Spot captured by NASA's Hubble Space Telescope. You can find more details <a href="https://www.jpl.nasa.gov/news/jupiters-great-red-spot-is-smaller-than-ever-measured/" target="_blank" rel="noopener noreferrer">here</a>
+                A photo Jupiter&apos;s Great Red Spot captured by NASA&apos;s Hubble Space Telescope. You can find more details <a href="https://www.jpl.nasa.gov/news/jupiters-great-red-spot-is-smaller-than-ever-measured/" target="_blank" rel="noopener noreferrer">here</a>
                 </p>
               </div>
 
@@ -72,7 +72,7 @@ const ResearchPage = () => {
                   Spatial extent of weather systems
                   </h2>
                   <p className="mb-6 text-sm leading-relaxed text-body-color dark:text-dark-6 sm:mb-8 sm:text-base">
-                  Jupiter's trademark Great Red Spot -- a swirling storm feature larger than Earth -- has shrunken to its smallest size ever measured. Astronomers have followed this downsizing since the 1930s. However, this mystery has not been solved yet. Similarly we have a very few studies on the size of weather systems on the earth. Our group is looking at what controls the size of precipitation systems on the Earth and weather systems such as monsoon low-pressure systems.
+                  Jupiter&apos;s trademark Great Red Spot -- a swirling storm feature larger than Earth -- has shrunken to its smallest size ever measured. Astronomers have followed this downsizing since the 1930s. However, this mystery has not been solved yet. Similarly we have a very few studies on the size of weather systems on the earth. Our group is looking at what controls the size of precipitation systems on the Earth and weather systems such as monsoon low-pressure systems.
                   </p>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const ResearchPage = () => {
                   </video>
                 </div>
                 <p className="mt-3 text-xs text-gray-600 dark:text-gray-400 sm:text-sm lg:text-base">
-                  The peak of the 2008 hurricane season is simulated using GFDL's High Resolution Atmosphere Model (HiRAM), at 12.5 km resolution. Please find more details at <a href="https://www.gfdl.noaa.gov/visualization/visualizations-hurricanes" target="_blank" rel="noopener noreferrer">here</a>
+                  The peak of the 2008 hurricane season is simulated using GFDL&apos;s High Resolution Atmosphere Model (HiRAM), at 12.5 km resolution. Please find more details at <a href="https://www.gfdl.noaa.gov/visualization/visualizations-hurricanes" target="_blank" rel="noopener noreferrer">here</a>
                 </p>
               </div>
             </div>
@@ -146,7 +146,7 @@ const ResearchPage = () => {
                   Tropical-extratropical interactions
                   </h2>
                   <p className="mb-6 text-sm leading-relaxed text-body-color dark:text-dark-6 sm:mb-8 sm:text-base">
-                  The extratropical influence on the break of the Indian summer monsoon has been reported at least since 1950's. However, the earlier theoretical work suggests that the Rossby wave propagation occurs mainly in westerly ducts where the upper-level mean zonal winds are westerly, but not in the easterly trade wind regions owing to the critical layer theory. As the monsoon flow has a strong easterly jet at upper levels, the pathways for tropical-extratropical interactions during Asian summer monsoon are not clear. Using a simple ray-tracing technique for two-dimensional flow, we show that it is possible for extratropical waves to intrude over the Indian latitudes at mid-levels (Figure 1) during the summer monsoon.
+                  The extratropical influence on the break of the Indian summer monsoon has been reported at least since 1950&apos;s. However, the earlier theoretical work suggests that the Rossby wave propagation occurs mainly in westerly ducts where the upper-level mean zonal winds are westerly, but not in the easterly trade wind regions owing to the critical layer theory. As the monsoon flow has a strong easterly jet at upper levels, the pathways for tropical-extratropical interactions during Asian summer monsoon are not clear. Using a simple ray-tracing technique for two-dimensional flow, we show that it is possible for extratropical waves to intrude over the Indian latitudes at mid-levels (Figure 1) during the summer monsoon.
                   </p>
                   <p className="mb-0 text-sm leading-relaxed text-body-color dark:text-dark-6 sm:mb-8 sm:text-base">
                   This intrusion at mid-levels follows approximately a great circle route. However, the waves at the upper level do not intrude following this same route as the flow is different. The widely used existing tools based on potential vorticity or Rossby wave packets tracking have limitations in analyzing the extratropical influence during the summer monsoon as they mainly track features of the upper-level flow. We are testing the utility of the available tools for the monsoon flow, explore possible modifications required for tracking the mid- and low-level, and propose a new automated diagnostic tool. 
