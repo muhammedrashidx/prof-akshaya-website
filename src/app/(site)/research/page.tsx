@@ -99,18 +99,14 @@ const ResearchPage = () => {
 
               <div className="w-full px-0 sm:px-2 lg:w-1/2 lg:px-4">
                 <div className="relative h-[250px] sm:h-[350px] lg:h-[500px]">
-                  <video
-                    className="h-full w-full rounded-lg object-cover object-center"
-                    controls
-                    muted
-                    loop
-                    playsInline
-                    autoPlay
-                    poster="/images/research/condlin_tq_v2_poster.jpg"
-                  >
-                    <source src="/images/research/condlin_tq_v2.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <iframe
+                    className="h-full w-full rounded-lg"
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID"
+                    title="Simulation of tropical convection"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                 </div>
                 <p className="mt-3 text-xs text-gray-600 dark:text-gray-400 sm:text-sm lg:text-base">
                   The peak of the 2008 hurricane season is simulated using GFDL&apos;s High Resolution Atmosphere Model (HiRAM), at 12.5 km resolution. Please find more details at <a href="https://www.gfdl.noaa.gov/visualization/visualizations-hurricanes" target="_blank" rel="noopener noreferrer">here</a>
