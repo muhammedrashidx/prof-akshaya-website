@@ -4,14 +4,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Contact| Atmospheric Convection and Dynamics Group",
-  description: "This is contact page description",
+    "Join Us | Atmospheric Convection and Dynamics Group",
+  description: "Join the Atmospheric Convection and Dynamics Group at IIT Bombay. Explore opportunities for research collaboration, PhD positions, and academic partnerships.",
 };
 
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Contact" />
+      <Breadcrumb pageName="Join Us" />
 
       <Contact />
     </>

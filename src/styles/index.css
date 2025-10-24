@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -17,6 +19,26 @@ body {
 ::-moz-selection {
   background-color: #FFD700; /* Vox yellow for Firefox */
   color: #000000; /* Black text for better contrast */
+}
+
+/* Academic Publications Styling */
+.publication-entry {
+  font-family: 'EB Garamond', serif; /* Garamond for all text except titles */
+  line-height: 1.6;
+}
+
+.publication-entry .text-lg {
+  font-family: 'Source Sans Pro', sans-serif; /* Source Sans Pro for titles */
+  font-size: 1.4rem; /* Increased from 1.2rem */
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.5px; /* Character spacing */
+}
+
+.publication-entry .text-sm {
+  font-family: 'EB Garamond', serif; /* Garamond for authors and journal text */
+  font-size: 1.1rem; /* Increased from 1rem */
+  line-height: 1.6;
 }
 
 .sticky-menu .navbar-logo {
