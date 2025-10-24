@@ -22,10 +22,10 @@ const Hero = () => {
                 The Atmospheric Convection and Dynamics Group at CCS, IIT Bombay focuses on understanding diverse atmospheric phenomena elucidated by atmospheric dynamics and thermodynamics. This includes weather and climate extremes, the South-Asian summer monsoon and tropical-extratropical interactions. 
                 </p>
                     <Link
-                  href="#research"
+                  href="/research"
                   className="group inline-flex items-center gap-4 text-base font-medium text-white transition duration-300 hover:-translate-y-2"
                 >
-                  <span className="hover:text-primary">ABOUT ACDG</span>
+                  <span className="hover:text-primary">Explore</span>
                   <div className="flex items-center justify-center w-12 h-12 rounded-full border-2 border-white transition duration-300 group-hover:border-primary group-hover:bg-primary">
                     <svg
                       className="w-5 h-5 fill-none stroke-white transition duration-300 group-hover:stroke-white"

@@ -115,11 +115,11 @@ const Footer = () => {
         <div className="container">
           <div className="text-center">
             <Link href="#" className="text-primary hover:text-primary/80 text-sm font-medium mr-4">
-              Developed By
+            © 2025
             </Link>
             <span className="text-gray-400 text-sm">|</span>
             <Link href="www.muhammedrashid.in" className="text-primary hover:text-primary/80 text-sm font-medium mx-4">
-              Muhammed Rashid
+              Akshaya Nikumbh
             </Link>
           
           </div>
