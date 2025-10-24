@@ -27,14 +27,14 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "Contact",
-    path: "/contact",
+    title: "News",
+    path: "/news",
     newTab: false,
   },
   {
     id: 6,
-    title: "News",
-    path: "/news",
+    title: "Contact",
+    path: "/contact",
     newTab: false,
   },
 ];
