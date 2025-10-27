@@ -4,13 +4,12 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "News | Atmospheric Convection and Dynamics Group",
-  description: "Blog grids page description",
+  title: "News | Atmospheric Convection and Dynamics Group",
+  description: "Latest news and updates from the Atmospheric Convection and Dynamics Group at Centre for Climate Studies, IIT Bombay",
 };
 
 const Blog = () => {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug", "externalUrl"]);
 
   return (
     <>

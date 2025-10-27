@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
+  const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug", "externalUrl"]);
 
   return (
     <main>
