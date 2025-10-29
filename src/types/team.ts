@@ -6,4 +6,6 @@ export type TeamType = {
   googleScholarLink: string;
   twitterLink: string;
   linkedinLink: string;
+  bio?: string;
+  emails?: string[];
 };
