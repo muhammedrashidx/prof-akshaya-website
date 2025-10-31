@@ -1,8 +1,7 @@
-import SectionTitle from "../Common/SectionTitle";
-import SingleBlog from "./SingleBlog";
+import SingleNews from "./SingleNews";
 import Link from "next/link";
 
-const HomeBlogSection = ({ posts }: any) => {
+const HomeNewsSection = ({ posts }: any) => {
   return (
     <section className="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
       <div className="container mx-auto">
@@ -37,7 +36,7 @@ const HomeBlogSection = ({ posts }: any) => {
         <div className="-mx-4 flex flex-wrap">
           {posts.slice(0, 3).map((blog: any, i: number) => (
             <div key={i} className="w-full px-4 md:w-1/2 lg:w-1/3">
-              <SingleBlog blog={blog} />
+              <SingleNews blog={blog} />
             </div>
           ))}
         </div>
@@ -46,4 +45,4 @@ const HomeBlogSection = ({ posts }: any) => {
   );
 };
 
-export default HomeBlogSection;
+export default HomeNewsSection;

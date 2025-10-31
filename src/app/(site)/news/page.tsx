@@ -1,4 +1,4 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
+import SingleNews from "@/components/News/SingleNews";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Latest news and updates from the Atmospheric Convection and Dynamics Group at Centre for Climate Studies, IIT Bombay",
 };
 
-const Blog = () => {
+const NewsPage = () => {
   const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug", "externalUrl"]);
 
   return (
@@ -20,7 +20,7 @@ const Blog = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             {posts.map((blog, i) => (
               <div key={i} className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3">
-                <SingleBlog blog={blog} />
+                <SingleNews blog={blog} />
               </div>
             ))}
           </div>
@@ -30,4 +30,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default NewsPage;

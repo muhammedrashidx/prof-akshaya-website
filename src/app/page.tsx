@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import HomeBlogSection from "@/components/Blog/HomeBlogSection";
+import HomeNewsSection from "@/components/News/HomeNewsSection";
 import Clients from "@/components/Clients";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
@@ -22,7 +22,7 @@ export default function Home() {
       <Hero />
       <Features />
       <About />
-      <HomeBlogSection posts={posts} />
+      <HomeNewsSection posts={posts} />
       <Contact />
       
     </main>

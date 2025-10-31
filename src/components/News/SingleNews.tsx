@@ -3,21 +3,15 @@ import { format } from "date-fns";
 import Image from "next/image";
 import Link from "next/link";
 
-const SingleBlog = ({ blog }: { blog: Blog }) => {
+const SingleNews = ({ blog }: { blog: Blog }) => {
   const { title, coverImage, excerpt, date, slug, externalUrl } = blog;
-  
   const hasExternalUrl = !!externalUrl;
 
   return (
     <div className="wow fadeInUp group mb-10" data-wow-delay=".1s">
       <div className="mb-8 overflow-hidden rounded">
         {hasExternalUrl ? (
-          <Link 
-            href={externalUrl} 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block"
-          >
+          <Link href={externalUrl} target="_blank" rel="noopener noreferrer" className="block">
             <Image
               src={coverImage!}
               alt="image"
@@ -63,4 +57,4 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   );
 };
 
-export default SingleBlog;
+export default SingleNews;
