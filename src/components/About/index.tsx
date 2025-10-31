@@ -55,7 +55,7 @@ const About = () => {
 
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden rounded-lg sm:mb-8 lg:mb-4 xl:mb-8">
                     <Image
-                      src="/images/about/hurricane.jpg"
+                      src="/images/about/cloud.jpg"
                       alt="Hurricane"
                       width={400}
                       height={300}

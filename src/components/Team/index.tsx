@@ -202,14 +202,14 @@ const Team = () => {
             <SingleTeam key={`phd-${i}`} team={p} onOpen={() => setSelected(p)} />
           ))}
         </div>
-        
+
         <h3 className="mb-6 text-center text-xl font-semibold text-dark dark:text-white">Postdocs</h3>
         <div className="-mx-4 mb-12 flex flex-wrap justify-center">
           {postdocs.map((p, i) => (
             <SingleTeam key={`postdoc-${i}`} team={p} onOpen={() => setSelected(p)} />
           ))}
         </div>
-        
+
         <h3 className="mb-6 text-center text-xl font-semibold text-dark dark:text-white">Project Staff</h3>
         <div className="-mx-4 mb-12 flex flex-wrap justify-center">
           {projectStaff.map((p, i) => (

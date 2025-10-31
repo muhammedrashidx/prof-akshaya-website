@@ -4,21 +4,21 @@ import Image from "next/image";
 const SingleFeature = ({ feature }: { feature: Feature }) => {
   const { icon, title, paragraph } = feature;
   return (
-    <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-      <div className="wow fadeInUp group mb-12" data-wow-delay=".15s">
-        <div className="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-white shadow-lg">
+    <div className="w-full px-2 md:w-1/2 lg:w-1/4">
+      <div className="wow fadeInUp group mb-6" data-wow-delay='.15s'>
+        <div className="relative z-10 mb-4 flex h-[56px] w-[56px] items-center justify-center rounded-xl bg-white shadow-sm">
           <Image
             src={icon}
             alt={title}
-            width={50}
-            height={50}
-            className="h-12 w-auto object-contain"
+            width={36}
+            height={36}
+            className="h-9 w-auto object-contain"
           />
         </div>
-        <h3 className="mb-3 text-xl font-bold text-dark dark:text-white">
+        <h3 className="mb-2 text-base font-semibold break-words text-dark dark:text-white">
           {title}
         </h3>
-        <p className="mb-8 text-body-color dark:text-dark-6 lg:mb-11 whitespace-pre-line">
+        <p className="mb-4 text-sm text-body-color dark:text-dark-6 whitespace-pre-line">
           {paragraph}
         </p>
       </div>
