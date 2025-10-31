@@ -38,6 +38,12 @@ const menuData: Menu[] = [
     newTab: false,
   },
   {
+    id: 5.5,
+    title: "Resources",
+    path: "/resources",
+    newTab: false,
+  },
+  {
     id: 6,
     title: "Join Us",
     path: "/contact",

@@ -47,7 +47,7 @@ export default function ProjectsPage() {
   return (
     <main>
       <Breadcrumb pageName="Projects" />
-      <section className="min-h-[50vh] bg-gray-1 pb-12 pt-10 dark:bg-dark-2 lg:pb-[70px] lg:pt-[50px]">
+      <section className="min-h-[50vh] bg-emerald-50 pb-12 pt-10 dark:bg-dark lg:pb-[70px] lg:pt-[50px]">
         <div className="container mx-auto px-4">
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {projectCards.map((proj, i) => (
